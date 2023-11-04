@@ -26,6 +26,7 @@ String decimalToBinary(int num) {
 String decimalToOctal(int num) {
     return Integer.toOctalString(num);
 }
+
 String decimalToHexadecimal(int num) {
     return Integer.toHexString(num).toUpperCase();
 }
@@ -71,5 +72,4 @@ void setup() {
         showMessageDialog(null, "Decimal: " + hexToDecimal(num2) + "\nBinary: " + hexToBinary(num2) + "\nOctal: " + hexToOctal(num2));
     }
 }
-
 ```
